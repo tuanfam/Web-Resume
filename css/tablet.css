@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+    /* Utility */
+    .container {
+        margin: auto 50px;
+    }
+    /* NAV-bar styling */
+    #nav-bar img {
+        display: none;
+    }
+    .nav1,
+    .nav2,
+    .nav3,
+    .nav4 {
+        padding: 10px 20px;
+    }
+    /* Personal Information */
+    #target {
+        padding: 60px 20px 30px
+    }
+    #personal-info {
+        padding: 60px 20px 30px
+    }
+    /* About Job and skill */
+    .job-ctn{
+        width: 100%;
+        height: auto;
+    }
+    /* Certificate */
+    .web-grp,
+    .java-grp,
+    .line2 {
+        flex-wrap: wrap;
+    }
+    .line2 {
+        margin-top: 0px;
+    }
+    .cer-info {
+        margin-top: 20px;
+    }
+    .role i {
+        display: inline;
+    }
+    
+}
