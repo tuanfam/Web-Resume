@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tablet.css">
+	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="css/font.css">
+	<script src="https://kit.fontawesome.com/980345c7d8.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>デジタル </title>
+</head>
+<body>
+	
+	<!-- BANNER -->
+	<div id="banner" style="margin: 0 40px;">
+		<img src="images/banner.jpg" alt="TuanDevPicture">
+		<div class="banner-text">
+			<h1>PHAM MINH TUAN</h1>
+			<span>Full Stack Developer</span>
+		</div>
+	</div>
+	<!-- NAVIGATION BAR -->
+	<section id="nav-bar">
+		<nav class="nav-bar">
+			<a href="#personal-info" class="nav1">個人情報 <i class="far fa-address-card" style="font-size: 20px; padding-left: 10px;"></i></a>
+			<a href="#job-info" class="nav2">履歴 <i class="far fas fa-clipboard" style="font-size: 20px; padding-left: 10px;"></i></a>	
+			<a href="#certificate" class="nav3">資格 <i class="fas fa-user-graduate" style="font-size: 20px; padding-left: 10px;"></i></a>
+			<a href="#project" class="nav4">プロジェクト <i class="fas fa-sitemap" style="font-size: 20px; padding-left: 10px;"></i></a>
+		</nav>
+		<a href="#">
+			<img src="images/personal-avatar.png" alt="Tuan Pham" style="height: 150px;width: 150px;">
+		</a>
+	</section>
+
+		<!------------------------------
+			 ABOUT- Basic infomation 
+			----------------------------->
+	<section id="about" class="bg-grey">
+		<div class="container-fluid">
+			<div class="about row">
+				<div id="target" class="col-12 col-md-6">
+					<h1 class="section-title">キャリアのビジョン</h1>
+					<br>
+					<p>
+						【FUNiX】スクールのコースを受けている学生として、学んだ知識を活かしながら<b>フルスタックエンジニア</b>を目指しております。常に勉強に励んでいると共に自己啓発をおこなっています。
+						価値の高い人材になろうと掲げる他に社会に価値をもたらす精神もいつも念頭においています。
+					</p>
+				</div>
+				<div id="personal-info" class="col-12 col-md-6">
+					<h1 class="section-title">個人情報</h1>
+					<br>
+					<div class="content hide">
+						<ul class="mt-40 info">
+							<li><span><strong>性別</strong></span> : 男性</li>
+							<li><span><strong>生年月日</strong></span> : 1998年06月11日</li>
+							<li><span><strong>電話番号</strong></span> : 080-5861-1805</li>
+							<li><span><strong>メールアドレス</strong></span> : tuanphamm198@gmail.com</li>
+							<li><span><strong>住所</strong></span> : 埼玉県さいたま市</li>
+							<li><span><strong>ホームページ</strong></span> : https://abc.tech</li>
+						</ul>
+						<div class="personal-icon">
+							<i class="icon-twitter"></i>
+							<i class="icon-facebook"></i>
+							<i class="icon-gplus"></i>
+							<i class="icon-linkedin"></i>
+							<i class="icon-user-1"></i>
+						</div>
+					</div>
+					<div class="email-submit">
+						<input id="email" type="text">
+						<p class="" id="error"></p>
+						<button type="button" id="btn-email" class="btn btn-primary" >submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+			<!-------------------------------------------------------------
+				 Kinh nghiệm, Học vấn, Hoạt động, Sở thích, ngôn ngữ, kỹ năng 
+				------------------------------------------------------------->
+	<section id="job-info">
+		<div class="container">
+			<div class="job-info row m-3">
+				<div class="job-info-1 col-12 col-sm-6 d-md-flex col-md-12">
+					<!-- Experiment -->
+					<div class="job-ctn exp m-3" onmouseover="mouseHoverIn(this)" onmouseout="mouseHoverOut(this)">
+						<div class="section-title d-flex align-items-center justify-content-evenly p-3">
+							<h1>職務経歴</h1>
+							<i class="px-3 fas fa-briefcase" style="font-size: 40px;color: #c1c1c1;"></i>
+						</div>
+						<div class="job-content hide">
+							<div class="d-flex">
+								<div class="dot dot1"></div>
+								<div class="jats-com company" >
+									<h3> 株式会社ジャッツ</h3>
+									<p><em> 05/2022</em> - <span> 現在</span></p>
+									<br>
+									<p>
+										- 高崎市にいる外国籍の方に対して、コロナウイルスワクチン接種予約の支援を行う<br><br>
+										- 担当言語：日本語、ベトナム語、英語
+									</p>
+								</div>
+							</div>
+ 							<div class="d-flex">
+								<div class="dot dot2"></div>
+								<div class="VAIJ-com company">
+									<h3>一般社団法人在日ベトナム人協会</h3>
+									<p><em> 2020年12月 - 2023年03月</em></p>
+									<br>
+									<p>
+										- データ入力・操作業務<br>
+										- 資料翻訳業務<br>
+										- ベトナム人に対する調査アンケートと情報発信業務<br>
+										- グラフィクスデザイン支援・映像編集支援業務<br>
+										- 医療機器の３Dアニメーション制作を受託
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="view-more text-center mb-3 hide">
+							<button class="job-btn btn btn-danger show-info-btn"style="text-align: center;" onclick="showInfo(this)">表示</button>
+						</div>
+						<div class="view-less text-center mb-3 hide">
+							<button class="job-btn btn btn-danger "style="text-align: center;" onclick="hideInfo(this)">縮小</button>
+						</div>
+					</div>
+					<!-- Studying -->
+					<div class="job-ctn hv m-3" onmouseover="mouseHoverIn(this)" onmouseout="mouseHoverOut(this)">
+						<div class="section-title d-flex align-items-center justify-content-evenly py-3 px-5">
+							<h1>学歴</h1>
+							<i class="px-3 fas fa-graduation-cap" style="font-size: 40px;color: #c1c1c1;"></i>
+						</div>
+						<div class="job-content hide">
+							<div class="d-flex">
+								<div class="dot dot1"></div>
+								<div class="funix school">
+									<h3>FUNiX</h3>
+									<p><em> 02/2023 - 08/2023（卒業見込み）</em></p>
+									<br>
+									<p>
+										- フルスタックエンジニアコースを卒業見込み<br>
+									</p>
+								</div>
+							</div>
+							<div class="d-flex">
+								<div class="dot dot2"></div>
+								<div class="dhu school">
+									<h3>デジタルハリウッド大学</h3>
+									<p><em> 04/2019 - 03/2023</em></p>
+									<br>
+									<p>
+										- デジタルコミュニケーション学部<br>
+										- デジタルコンテンツ学科<br>
+										- GPA:2.94/4
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="view-more text-center mb-3 hide">
+							<button class="job-btn btn btn-danger show-info-btn"style="text-align: center;" onclick="showInfo(this)">表示</button>
+						</div>
+						<div class="view-less text-center mb-3 hide">
+							<button class="job-btn btn btn-danger "style="text-align: center;" onclick="hideInfo(this)">縮小</button>
+						</div>
+					</div>
+					<!-- Activity -->
+					<div class="job-ctn hd m-3" onmouseover="mouseHoverIn(this)" onmouseout="mouseHoverOut(this)">
+						
+						<div class="section-title d-flex align-items-center justify-content-evenly p-3">
+							<h1>活動</h1>
+							<i class="px-3 fas fa-hiking" style="font-size: 40px;color: #c1c1c1;"></i>
+						</div>
+						<div class="job-content hide">
+							<div class="d-flex">
+								<div class="dot dot1"></div>
+								<div class="club-3d act">
+									<h3>3DCGサークル</h3>
+									<p><em> 2021年5月 - 2022年12月</em></p>
+									<br>
+									<p>メンバーとして、新入学生や初心者などに対して３DCG勉強の支援を行う</p>
+								</div>
+							</div>
+							<div class="d-flex">
+								<div class="dot dot2"></div>
+								<div class="dhu-promotion act">
+									<h3>学校をプロモーションビデオ制作に参加す</h3>
+									<p><em> 2020年12月 - 2021年01月</em></p>
+									<br>
+									<p>在日ベトナム広告・メディアエージェントと協力し、タレントとしてプロモーションビデオに登場した</p>
+								</div>
+							</div>
+						</div>
+						<div class="view-more text-center mb-3 hide">
+							<button class="job-btn btn btn-danger show-info-btn"style="text-align: center;" onclick="showInfo(this)">表示</button>
+						</div>
+						<div class="view-less text-center mb-3 hide">
+							<button class="job-btn btn btn-danger "style="text-align: center;" onclick="hideInfo(this)">縮小</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="job-info-2 col-12 col-sm-6 d-md-flex col-md-12">
+					<!-- Hoppy -->
+					<div class="job-ctn hobby-container m-3" onmouseover="mouseHoverIn(this)" onmouseout="mouseHoverOut(this)">
+						<div class="section-title d-flex align-items-center justify-content-evenly py-3 px-5">
+							<h1>趣味</h1>
+							<i class="px-3 fas fa-mug-hot" style="font-size: 40px;color: #c1c1c1;"></i>
+						</div>
+						<div class="job-content mb-5 hobby-icon hide">
+							<div class="icon">
+								<i class="fas fa-music" style="font-size: 15px;color: #00eaff85;"></i>
+								<p class="hobby-text">音楽</p>						
+							</div>
+							<div class="icon">
+								<i class="fas fa-gamepad" style="font-size: 15px;color: #00eaff85;"></i>
+								<p class="hobby-text">ゲーミング</p>
+							</div>
+							<div class="icon">
+								<i class="fas fa-plane-departure" style="font-size: 15px;color: #00eaff85;"></i>
+								<p class="hobby-text">旅行</p>
+							</div>
+							<div class="icon">
+							<i class="fas fa-camera-retro" style="font-size: 15px;color: #00eaff85;"></i>
+							<p class="hobby-text">撮影</p>
+							</div>
+						</div>
+						<div class="view-more text-center mb-3 hide">
+							<button class="job-btn btn btn-danger show-info-btn"style="text-align: center;" onclick="showInfo(this)">表示</button>
+						</div>
+						<div class="view-less text-center mb-3 hide">
+							<button class="job-btn btn btn-danger "style="text-align: center;" onclick="hideInfo(this)">縮小</button>
+						</div>
+					</div>
+					
+					<!-- language -->
+					<div class="job-ctn lang-container m-3" onmouseover="mouseHoverIn(this)" onmouseout="mouseHoverOut(this)">
+						<div class="section-title d-flex align-items-center justify-content-evenly p-3">
+							<h1>言語</h1>
+							<i class="px-3 fas fa-language" style="font-size: 40px;color: #c1c1c1;"></i>
+						</div>
+						<div class="job-content mb-5 hide">
+							<div class="eng">
+								<p style="font-size: 16px;">English - TOEIC 650</p>						
+								<span class="lv lv1"></span>
+								<span class="lv lv2"></span>
+								<span class="lv lv3"></span>
+							</div>
+							<div class="jp">
+								<p style="font-size: 16px;">日本語 - N2</p>
+								<span class="lv lv1"></span>							
+								<span class="lv lv2"></span>
+								<span class="lv lv3"></span>							
+							</div>
+						</div>
+						<div class="view-more text-center mb-3 hide">
+							<button class="job-btn btn btn-danger show-info-btn"style="text-align: center;" onclick="showInfo(this)">表示</button>
+						</div>
+						<div class="view-less text-center mb-3 hide">
+							<button class="job-btn btn btn-danger "style="text-align: center;" onclick="hideInfo(this)">縮小</button>
+						</div>
+					</div>
+					<!-- KỸ NĂNG -->
+					<div class="job-ctn skill-container m-3" onmouseover="mouseHoverIn(this)" onmouseout="mouseHoverOut(this)">
+						<div class="section-title d-flex align-items-center justify-content-evenly py-3 px-5">
+							<h1>スキル</h1>
+							<i class="fas fa-medal" style="font-size: 40px;color: #c1c1c1;"></i>
+						</div>
+						<div class="job-content mb-5 hide">
+							<div class="html">
+								<p style="font-size: 16px;">HTML/CSS: 初級</p>						
+								<span class="lv lv1"></span>
+								<span class="lv lv2"></span>
+								<span class="lv lv3"></span>
+							</div>
+							<div class="maya">
+								<p style="font-size: 16px;">Autodesk Maya /Modeling,Animation: 中級</p>						
+								<span class="lv lv1"></span>
+								<span class="lv lv2"></span>
+								<span class="lv lv3"></span>
+							</div>
+							<div class="pts">
+								<p style="font-size: 16px;">Adobe Photoshop: 中級</p>						
+								<span class="lv lv1"></span>
+								<span class="lv lv2"></span>
+								<span class="lv lv3"></span>
+							</div>
+							<div class="edit">
+								<p style="font-size: 16px;">映像編集/Adobe Premiere Pro: 中級</p>						
+								<span class="lv lv1"></span>
+								<span class="lv lv2"></span>
+								<span class="lv lv3"></span>
+							</div>
+						</div>
+						<div class="view-more text-center mb-3 hide">
+							<button class="job-btn btn btn-danger show-info-btn"style="text-align: center;" onclick="showInfo(this)">表示</button>
+						</div>
+						<div class="view-less text-center mb-3 hide">
+							<button class="job-btn btn btn-danger "style="text-align: center;" onclick="hideInfo(this)">縮小</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	
+
+			<!-------------   
+				Certification
+			---------------->
+	<section id="certificate" class="bg-grey">
+		<div class="container">
+			<h1 class="section-title">
+				資格・認定書
+			</h1>
+			<!-- 1st line -->
+			<div class="line1">
+				<div class="web-grp">
+					<div class="web-img">
+						<img src="images/FX228041SC_WEB101x_PHAM MINH TUAN.jpg" alt="first website" >
+					</div>
+					<div class="cer-info">
+						<h4>HTML/CSS/Javascrip・WEBデザイン認定書</h4>
+						<p>
+							- FUNiXスクールにより授ける <br>
+							- GPA: 9.1
+						</p>
+					</div>
+				</div>
+				<div class="java-grp">
+					<div class="java-img">
+						<img src="images/FX228041SC_PRO192x_PHAM MINH TUAN.jpg" alt="java study" >
+					</div>
+					<div class="cer-info">
+						<h4>オブジェクト指向プログラミング認定書</h4>
+						<p>
+							- FUNiXスクールにより授ける <br>
+							- GPA: 8.9
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- Dòng 2 -->
+			<!-- <div class="line2 dtbase">
+				<div class="dtbase-img">
+					<img src="images/Cert_DBI.png" alt="first website">
+				</div>
+				<div class="cer-info">
+					<h4>CHỨNG CHỈ THIẾT KẾ DATABASE-FUNIX</h4>
+					<p>
+						- Chứng chỉ thuộc chương trình CCDN <br>
+						- GPA: 8.0
+					</p>
+				</div>
+			</div> -->
+		</div>
+	</section>
+	
+			<!-----------------------  
+				Projects 
+				--------------------->
+	<section id="project" class="mb-4 mt-4">
+		<div class="container">
+			<h1 class="section-title">
+				プロジェクト
+			</h1>
+			<article class="art-container">
+
+				<!-- Graduated 3D movie -->
+				<article class="art-child">
+					<div>
+						<a href="project-charter.html?graduated-pj">
+							<img src="images/project-01.png" alt="phim 3D">
+						</a>
+					</div>
+					<div style="padding: 15px;font-weight: bold;font-size: 18px;">卒業制作 - 3Dショートフィルム</div>
+					<div class="time py-3">
+						<div class="special">2023</div>
+						<div class="role d-md-flex justify-content-start">
+							<div class="ps-2"><i class="icon-user-1"></i> 役割：</div>
+							<div class="ps-2"><i class="icon-lamp"></i> 監督</div>
+						</div>
+					</div>
+					<table>
+						<tr>
+							<td>説明</td>
+							<td>
+								アポカリプス後にある親子愛のストーリーをテーマしている。学んだ３D技術を応用しながら、新しい技術も身につけて導入する。したがって制作の効率化するだけはなく、クオリティーも高めることも達成。
+							</td>
+						</tr>
+						<tr>
+							<td>目標</td>
+							<td>作品を完成させると共にクオリティーをキープできる</td>
+						</tr>
+						<tr>
+							<td>技術</td>
+							<td>Maya, photoshop, Premierpro, Substance Painter</td>
+						</tr>
+					</table>
+				</article>
+
+				<!-- Digital CV project -->
+				<article class="art-child cv-self">
+					<div>
+						<a href="project-charter.html?digitalCv-pj">
+							<img src="images/Web-CV.png" alt="Tuan Website">
+						</a>
+					</div>
+					<div style="padding: 15px;font-weight: bold;font-size: 18px;">
+						デジタル CV
+					</div>
+					<div class="time py-3">
+						<div class="special">2023</div>
+						<div class="role d-md-flex justify-content-start">
+							<div class="ps-2"><i class="icon-user-1"></i> 役割：</div>
+							<div class="ps-2"><i class="icon-lamp"></i> 開発</div>
+						</div>
+					</div>
+					<table>
+						<tr>
+							<td>説明</td>
+							<td>
+								ウエブページ形のレジュメ
+								基本の個人情報とスキルについての掲載
+								<br><br><br><br>
+							</td>
+						</tr>
+						<tr>
+							<td>目標</td>
+							<td>ウエブページのプログラミング、コードを効率化させる</td>
+						</tr>
+						<tr>
+							<td>技術</td>
+							<td>HTML,CSS,Javascript</td>
+						</tr>
+					</table>
+				</article>
+
+				<!-- Group project - 3d movie -->
+				<article class="art-child">
+					<div>
+						<a href="project-charter.html?group-3d">
+							<img src="images/project-03.png" alt="phim 3D">
+						</a>
+					</div>
+					<div style="padding: 15px;font-weight: bold;font-size: 18px;">グループプロジェクト - 3Dショートフィルム</div>
+					<div class="time py-3">
+						<div class="special">2021</div>
+						<div class="role d-md-flex justify-content-start">
+							<div class="ps-2"><i class="icon-user-1"></i> 役割：</div>
+							<div class="ps-2"><i class="icon-lamp"></i> リーダー</div>
+						</div>
+					</div>
+					<table>
+						<tr>
+							<td>説明</td>
+							<td>
+								グループプロジェクトを通してチームワーク能力を体験
+								<br><br><br><br><br>
+							</td>
+						</tr>
+						<tr>
+							<td>目標</td>
+							<td>作品を完成させると共にクオリティーをキープできる <br></td>
+						</tr>
+						<tr>
+							<td>技術</td>
+							<td>Maya, photoshop, Premierpro, Substance Painter</td>
+						</tr>
+					</table>
+				</article>
+			</article>
+		</div>
+	</section>
+	
+			 <!----------
+				Contact
+			--------------->
+	<section id="footer" class="bg-grey">
+		<div class="container">
+			<div class="contact">
+				<i class="fa fa-facebook-square fa-2x"></i>
+				<a href="https://www.facebook.com/jack.pham.16718" target="_blank">facebook</a>
+			</div>
+			<div class="contact">
+				<i class="fa fa-linkedin-square fa-2x"  ></i>
+				<a href="https://www.linkedin.com/in/minh-tuan-pham-988a9b261/" target="_blank">Linkedin</a>
+			</div>
+			<div class="contact">
+				<i class="fa fa-github fa-2x"  ></i>
+				<a href="https://github.com/tuanfam" target="_blank">Github</a>
+			</div>
+		</div>
+	</section>
+
+	<script src="script.js" ></script>
+
+</body>
+</html>
